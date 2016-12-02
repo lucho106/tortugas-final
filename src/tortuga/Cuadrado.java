@@ -35,11 +35,13 @@ else if(i<9){for (int s = 0; s < 360; s++){segment4(turtle);}}
  else if(i<12){for (int s = 0; s < 360; s++){segment4(turtle);}}       
  else if(i<13){segment7(turtle);} 
  else if(i<14){for (int s = 0; s < 90; s++){segment8(turtle);}}       
+ 
+ 
  else if(i<15){segment9(turtle);}
  else if(i<16){segment6(turtle);}
  else if(i<17){for (int s = 0; s < 180; s++){segment8(turtle);}}       
  else if(i<18){segment10(turtle);}
- else if(i<19){for (int s = 0; s < 180; s++){segment8(turtle);}}
+       
    }
    
  }
@@ -65,7 +67,10 @@ private void segment8(Turtle t)
 private void segment9(Turtle t)
  {t.penUp();t.right(90);t.forward(80);t.right(90);}
 private void segment10(Turtle t)
- {t.penUp();t.left(90);t.forward(65);}
+ {t.penUp();t.forward(20);t.left(90);t.forward(10);t.right(90);t.penDown();t.forward(10);t.left(90);t.forward(40);t.left(90);
+ t.forward(10);t.left(90);t.forward(40);t.left(180);t.forward(10);t.right(90);t.forward(10);t.left(90);
+ t.forward(10);t.left(90);t.forward(10);t.right(90);t.forward(10);t.right(90);t.forward(10);
+ }
 
 
 

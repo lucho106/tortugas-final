@@ -24,7 +24,22 @@ public class cuerpo extends Thread{
  {
      for (int i = 0; i < 100; i++){
        if(i<1){segment(turtle);}
-  
+       else if(i<2){
+           for (int m = 0; m < 360; m++){
+               segment1(turtle);}}
+       else if(i<3){
+           segment2(turtle);}
+  else if(i<4){
+           for (int m = 0; m < 360; m++){
+               segment1(turtle);}}
+       else if(i<5){
+           segment2(turtle);}
+       
+       else if(i<6){
+           for (int m = 0; m < 360; m++){
+               segment1(turtle);}}
+       else if(i<7){
+           segment2(turtle);}
   
  }
  }
@@ -36,6 +51,13 @@ private void segment(Turtle t)
  t.forward(10);t.penDown();t.left(30);t.forward(10);t.right(120);t.forward(10);t.right(120);t.forward(10);t.penUp();t.right(60);t.forward(30);t.penDown();
 t.right(60);t.forward(10);t.right(120);t.forward(10);t.right(120);t.forward(10);t.penUp();t.right(60);t.forward(30);t.penDown();
 t.right(60);t.forward(10);t.right(120);t.forward(10);t.right(120);t.forward(10);t.penUp();t.right(60);t.forward(30);t.penDown();
-t.right(60);t.forward(10);t.right(120);t.forward(10);t.right(120);t.forward(10);t.penUp();t.right(60);t.forward(30);t.penDown();
+t.right(60);t.forward(10);t.right(120);t.forward(10);t.right(120);t.forward(10);t.penUp();t.right(60);t.right(90);t.forward(90);
+t.right(90);t.forward(10);
 
-}}
+}
+private void segment1(Turtle t)
+ {t.right(1);t.penDown();t.forward(0.1);}
+private void segment2(Turtle t)
+ {t.penUp();t.forward(35);}
+
+}

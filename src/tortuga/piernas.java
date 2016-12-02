@@ -28,14 +28,9 @@ public class piernas extends Thread{
   
  }
  }
-private void segment(Turtle t)
- {t.right(180);t.forward(10);t.left(90);t.forward(60);t.left(90);t.forward(10);t.penUp();t.right(180);t.forward(10);
- t.penDown();t.left(90);t.forward(40);t.right(90);t.forward(140);t.right(90);t.forward(140);t.right(90);t.forward(140);
- t.right(90);t.forward(40);t.penUp();t.right(90);t.forward(20);t.penDown();t.left(90);t.forward(90);t.right(90);t.forward(30);
- t.right(90);t.forward(120);t.right(90);t.forward(30);t.right(90);t.forward(30);t.penUp();t.left(180);t.forward(15);t.left(90);
- t.forward(10);t.penDown();t.left(30);t.forward(10);t.right(120);t.forward(10);t.right(120);t.forward(10);t.penUp();t.right(60);t.forward(30);t.penDown();
-t.left(30);t.forward(10);t.right(120);t.forward(10);t.right(120);t.forward(10);t.penUp();t.right(60);t.forward(30);
-t.left(30);t.forward(10);t.right(120);t.forward(10);t.right(120);t.forward(10);t.penUp();t.right(60);t.forward(30);
-t.left(30);t.forward(10);t.right(120);t.forward(10);t.right(120);t.forward(10);t.penUp();t.right(60);t.forward(30);
-
+private void segment(Turtle t){
+ t.right(180);t.forward(120);t.right(90);t.forward(50);t.right(150);t.forward(60);t.left(150);t.forward(20);t.left(90);t.forward(10);t.right(180);t.forward(100);
+ t.right(90);t.penUp();t.forward(60);
+  t.penDown();t.right(90);t.forward(120);t.left(90);t.forward(50);t.left(150);t.forward(60);t.right(150);t.forward(20);t.right(90);t.forward(10);t.left(180);t.forward(100);
+ t.right(90);t.penUp();
 }}
